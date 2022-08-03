@@ -1,4 +1,4 @@
-import Quote from "./components/axios/Quote";
+import Quote from "./components/swr/Quote";
 
 function App() {
   return (
