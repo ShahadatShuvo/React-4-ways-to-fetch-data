@@ -14,7 +14,7 @@ function Quote() {
   );
   if (error) return <div>failed to load</div>;
   if (!data) return <div>loading...</div>;
-  return <div>Axios-:Quote title: {data[0]?.name}</div>;
+  return <div>SWR-:Quote title: {data[0]?.name}</div>;
 }
 
 export default Quote;
